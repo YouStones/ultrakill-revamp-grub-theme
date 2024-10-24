@@ -46,7 +46,11 @@ or
 wget -O- https://github.com/Youstones/ultrakill-grub-theme/raw/main/install.sh | bash -s -- --lang Korean
 ```
 
+<br>
+
 Full list of languages see in `INSTALLER_LANGS` variable in [install.sh](install.sh)
+
+---
 
 ### Uninstallation
 
@@ -71,8 +75,6 @@ Full list of languages see in `INSTALLER_LANGS` variable in [install.sh](install
   ```sh
   wget -O - https://github.com/YouStones/ultrakill-grub-theme/raw/main/uninstall.sh | bash
   ```
-
-<br>
 
 ---
 
