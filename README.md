@@ -48,6 +48,32 @@ wget -O- https://github.com/Youstones/ultrakill-grub-theme/raw/main/install.sh |
 
 Full list of languages see in `INSTALLER_LANGS` variable in [install.sh](install.sh)
 
+### Uninstallation
+
+- **Secure way:**
+
+  - Download install script:
+
+    ```sh
+    wget -P /tmp https://github.com/YouStones/ultrakill-grub-theme/raw/main/uninstall.sh
+    ```
+
+  - Review it at `/tmp/uninstall.sh`
+
+  - Run it:
+
+    ```sh
+    bash /tmp/uninstall.sh
+    ```
+
+- **Easier, less secure way** — just download and run install script:
+
+  ```sh
+  wget -O - https://github.com/YouStones/ultrakill-grub-theme/raw/main/uninstall.sh | bash
+  ```
+
+<br>
+
 ---
 
 I used [this theme](https://github.com/shvchk/fallout-grub-theme) as a base
