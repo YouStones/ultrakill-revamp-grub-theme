@@ -1,8 +1,8 @@
 # Global properties
 title-text: ""
-desktop-image: "ULTRA.png"
+desktop-image: "bg.png"
 desktop-color: "#000000"
-terminal-font: "ultrafont Regular 32"
+terminal-font: "ultrafont2 Regular 32"
 terminal-box: "terminal_box_*.png"
 terminal-left: "0"
 terminal-top: "0"
@@ -10,116 +10,27 @@ terminal-width: "100%"
 terminal-height: "100%"
 terminal-border: "0"
 
-+ label {
-  top = 10%
-  left = 4%
-  width = 52%
-  height = 70%
-  text = "--MENU--"
-  font = "ultrafont Regular 64"
-  color = "#ffffff"
-  align = "center"
-}
-
 # Boot menu
 + boot_menu {
-  top = 10%+70
-  left = 4%
-  width = 52%
-  height = 70%-70
-  item_font = "ultrafont Regular 32"
+  top = 400
+  left = 20
+  width = 48%
+  height = 100%-450
+  item_font = "ultrafont2 Regular 64"
   item_color = "#ffffff"
-  item_spacing = 40
-  item_height = 80
+  item_spacing = 80
+  item_height = 50
   item_pixmap_style = "item/item_s_*.png"
   selected_item_color = "#ff0000"
   selected_item_pixmap_style = "item/item_b_*.png"
 }
-# 3 best lines
-
-+ canvas {
-  left = 63%
-  top = 10%
-  width = 40%
-  height = 40%
-  + hbox {
-    top = 0
-    left = 0
-    width = 100%
-    height = 70
-    + label {
-      text = "MANKIND IS "
-      font = "ultrafont Regular 64"
-      color = "#ffffff"
-      align = "center"
-      height = 100%
-    }
-    + label {
-      text = "DEAD"
-      font = "ultrafont Regular 64"
-      color = "#ff0000"
-      align = "center"
-      height = 100%
-    }
-  }
-  + hbox {
-    top = 80
-    left = 0
-    width = 100%
-    height = 70
-    + label {
-      text = "BLOOD"
-      font = "ultrafont Regular 64"
-      color = "#ff0000"
-      align = "center"
-      height = 100%
-    }
-    + label {
-      text = " IS FUEL"
-      font = "ultrafont Regular 64"
-      color = "#ffffff"
-      align = "center"
-      height = 100%
-    }
-  }
-  + hbox {
-    top = 160
-    left = 0
-    width = 100%
-    height = 70
-    + label {
-      text = "HELL IS "
-      font = "ultrafont Regular 64"
-      color = "#ffffff"
-      align = "center"
-      height = 100%
-    }
-    + label {
-      text = "FULL"
-      font = "ultrafont Regular 64"
-      color = "#ff0000"
-      align = "center"
-      height = 100%
-    }
-  }
-  
-}
-
-+ image {
-  left = 63%
-  top = 40%
-  height = 200
-  widht = 200
-  file = "v1_head.png"
-}
-
 
 
 # Countdown message
 + label {
-  left = 0
+  left = 20
   top = 98%-70
-  width = 100%
+  width = 48%
   align = "center"
   id = "__timeout__"
   # DE
@@ -157,14 +68,14 @@ terminal-border: "0"
   # zh_TW
   # text = "在 %d 秒內啟動"
   color = "#ffffff"
-  font = "ultrafont Regular 20"
+  font = "ultrafont2 Regular 32"
 }
 
 # Navigation keys hint
 + label {
-  left = 0
+  left = 20
   top = 98%-30
-  width = 100%
+  width = 47%
   align = "center"
   # DE
   # text = "System mit ↑ und ↓ auswählen und mit Enter bestätigen."
@@ -201,7 +112,7 @@ terminal-border: "0"
   # zh_TW
   # text = "使用 ↑ 和 ↓ 鍵移動選擇，Enter 鍵繼續"
   color = "#ffffff"
-  font = "ultrafont Regular 12"
+  font = "ultrafont2 Regular 20"
 }
 
 

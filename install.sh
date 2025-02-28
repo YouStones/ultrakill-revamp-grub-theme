@@ -6,7 +6,7 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-GRUB_THEME='ultrakill-grub-theme'
+GRUB_THEME='ultrakill-revamp-grub-theme'
 INSTALLER_LANG='English'
 
 # Check dependencies
