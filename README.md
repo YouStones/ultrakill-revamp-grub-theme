@@ -2,7 +2,7 @@
 
 Supported languages: Chinese (simplified), Chinese (traditional), English, French, German, Hungarian, Italian, Korean, Latvian, Norwegian, Polish, Portuguese, Russian, Rusyn, Spanish, Turkish, Ukrainian
 
-![ultragrub](https://github.com/user-attachments/assets/80958c25-d8d7-4c0d-8a11-f4de938fe9fc)
+![ultragrubrevamp](./ultragrubrevamp.gif)
 
 
 ---
