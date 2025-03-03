@@ -56,7 +56,7 @@ Full list of languages see in `INSTALLER_LANGS` variable in [install.sh](install
 
 - **Secure way:**
 
-  - Download install script:
+  - Download uninstall script:
 
     ```sh
     wget -P /tmp https://github.com/YouStones/ultrakill-revamp-grub-theme/raw/main/uninstall.sh
@@ -70,7 +70,7 @@ Full list of languages see in `INSTALLER_LANGS` variable in [install.sh](install
     bash /tmp/uninstall.sh
     ```
 
-- **Easier, less secure way** — just download and run install script:
+- **Easier, less secure way** — just download and run uninstall script:
 
   ```sh
   wget -O - https://github.com/YouStones/ultrakill-revamp-grub-theme/raw/main/uninstall.sh | bash

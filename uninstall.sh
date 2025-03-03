@@ -55,8 +55,8 @@ if [[ -e /etc/os-release ]]; then
     fi
 fi
 
-echo 'Creating GRUB themes directory'
-sudo rm -r -p /boot/${GRUB_DIR}/themes/${GRUB_THEME}
+echo 'Removing ultrakill-revamp-grub-them from GRUB themes directory'
+sudo rm -r /boot/${GRUB_DIR}/themes/${GRUB_THEME}
 
 echo 'Removing other themes from GRUB config'
 sudo sed -i '/^GRUB_THEME=/d' /etc/default/grub
